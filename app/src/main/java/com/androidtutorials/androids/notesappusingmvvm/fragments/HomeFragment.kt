@@ -65,7 +65,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
             override fun onQueryTextChange(newText: String?): Boolean {
                 Log.e("SEARCHHH", "$newText")
                 NotesSearch(newText)
-                return false
+                return true
             }
 
         })
